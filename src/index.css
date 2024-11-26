@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+  background-color: rgb(0, 0, 0);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.to-do-list{
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+
+}
+h1{
+  font-size: 4rem;
+  color: white;
+
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  transition: backgrounde-color 0.5 ease;
+
+}
+.addbutton{
+  background-color: hsl(90 ,100% ,53%);
+}
+.addbutton:hover{
+background-color: hsl(90, 95%, 40%);
+}
+.delet-btn{
+  background-color: hsl(10, 90% ,50%);
+}
+.delet-btn:hover{
+background-color: hsl(10, 90%, 40%);
+}
+.mouve-btn{
+  background-color: hsl(207, 90% ,64%);
+}
+.mouve-btn:hover{
+background-color: hsl(207, 90% ,55%);
+}
+.mouve-btn{
+  background-color: hsl(207, 90% ,64%);
+}
+.mouve-btn:hover{
+background-color: hsl(207, 90% ,55%);
+}
+input[type='text']{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 1px solid rgb(190, 185, 185);
+  border-radius: 5px;
+  color: rgb(38, 36, 36);
+
+}
+ol {
+padding: 0;
+}
+li{
+font-size: 2rem;
+border: 3px solid rgb(169, 166, 166);
+border-radius: 5px;
+padding: 10px;
+display: flex;
+align-items: center;
+font-weight: bold;
+background-color: white;
+margin-bottom: 10px;
+
+}
+.text{
+  flex: 1;
+}
+.mouve-btn, .delet-btn{
+  padding: 8px 10px;
+  font-size: 1.4rem;
+  margin-left: 10px;
 }
